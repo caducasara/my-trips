@@ -1,0 +1,21 @@
+{
+  "name": "Carlos Casara - Front-End Software Engineer",
+  "short_name": "Carlos Casara",
+  "icons": [
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#06092B",
+  "description": "A simple project to show my skills and expertises",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#06092B"
+}
