@@ -1,6 +1,6 @@
 {
-  "name": "About me",
-  "short_name": "About me",
+  "name": "My Trips",
+  "short_name": "My Trips",
   "icons": [
     {
       "src": "/img/icon-512.png",
@@ -14,7 +14,7 @@
     }
   ],
   "background_color": "#06092B",
-  "description": "A simple project to show my skills and expertises",
+  "description": "A simple project started to work with TypeScript, React, NextJs and Styled Components.",
   "display": "fullscreen",
   "start_url": "/",
   "theme_color": "#06092B"
