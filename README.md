@@ -1,1 +1,2 @@
-# learning-nextjs-graphql
+# My Trips Project
+## I'm doing this project for studies with ReactJS, NextJS and GraphQL. Project in progress, wait for complete documentation...
