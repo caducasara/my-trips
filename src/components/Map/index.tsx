@@ -1,4 +1,4 @@
-import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
+import { MapContainer, Marker, TileLayer } from 'react-leaflet'
 
 interface MapProps {
   places?: Place[]
@@ -25,7 +25,7 @@ const Map = ({ places }: MapProps) => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {places?.map(({ id, name, slug, location }) => {
+      {places?.map(({ id, name, location }) => {
         const { latitude, longitude } = location
 
         return <Marker key={id} position={[latitude, longitude]} title={name} />

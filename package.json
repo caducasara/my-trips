@@ -8,11 +8,14 @@
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "codegen": "graphql-codegen --config codegen.ts"
   },
   "dependencies": {
     "@styled-icons/evaicons-outline": "^10.46.0",
     "babel": "^6.23.0",
+    "graphql": "^16.6.0",
+    "graphql-request": "^5.0.0",
     "leaflet": "^1.9.2",
     "next": "12.3.1",
     "next-pwa": "^5.6.0",
@@ -23,6 +26,9 @@
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.18.6",
+    "@graphql-codegen/add": "^3.2.1",
+    "@graphql-codegen/cli": "2.13.8",
+    "@graphql-codegen/client-preset": "1.1.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/jest": "^29.2.0",
