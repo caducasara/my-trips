@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router'
-import { MapContainer, Marker, TileLayer } from 'react-leaflet'
+import { MapContainer, Marker, TileLayer, useMap } from 'react-leaflet'
 
 export interface MapProps {
   places?: Place[]
@@ -33,6 +33,21 @@ const CustomTileLayer = () => {
   )
 }
 
+const MapConsumer = () => {
+  const map = useMap()
+  const width =
+    window.innerWidth ||
+    document.documentElement.clientWidth ||
+    document.body.clientWidth
+
+  if (width < 768) {
+    map.setZoom(2)
+    map.setMinZoom(2)
+  }
+
+  return null
+}
+
 const Map = ({ places }: MapProps) => {
   const router = useRouter()
 
@@ -40,8 +55,14 @@ const Map = ({ places }: MapProps) => {
     <MapContainer
       center={[0, 0]}
       zoom={3}
+      minZoom={3}
+      maxBounds={[
+        [-180, -180],
+        [180, 180]
+      ]}
       style={{ width: '100%', height: '100%' }}
     >
+      <MapConsumer />
       <CustomTileLayer />
       {places?.map(({ id, slug, name, location }) => {
         const { latitude, longitude } = location
