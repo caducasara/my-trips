@@ -43,6 +43,7 @@ export const GET_PLACES = gql`
         width
         height
       }
+      isVisited
     }
   }
 `
