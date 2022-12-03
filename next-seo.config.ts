@@ -3,7 +3,7 @@ export default {
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://my-trips.carloscasara.com.br',
+    url: 'https://my-trips-rouge.vercel.app/',
     siteName: 'My Trips - Carlos Casara',
   },
   instagram: {

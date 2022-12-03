@@ -19,12 +19,12 @@ export const HomeTemplate = ({ places }: MapProps) => {
         description={siteDescription}
         canonical="https://my-trips.carloscasara.com.br"
         openGraph={{
-          url: 'https://my-trips.carloscasara.com.br',
+          url: 'https://my-trips-rouge.vercel.app',
           title: 'My Trips - Carlos Casara',
           description: siteDescription,
           images: [
             {
-              url: 'https://my-trips.carloscasara.com.br/img/cover.png',
+              url: 'https://my-trips-rouge.vercel.app/img/cover.png',
               width: 1280,
               height: 720,
               alt: 'My Trips'
