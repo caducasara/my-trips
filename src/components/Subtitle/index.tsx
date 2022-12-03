@@ -8,14 +8,14 @@ export const Subtitle = () => {
           src="/img/blue_marker.png"
           alt="Ponteiro para demarcar localização no mapa de cor azul"
         />
-        <span>Marker para lugares que já foram visitados por mim.</span>
+        <span>Marker for places that have already been visited by me.</span>
       </Content>
       <Content>
         <img
           src="/img/red_marker.png"
           alt="Ponteiro para demarcar localização no mapa de cor vermalha"
         />
-        <span>Marker para lugares que ainda não foram visitados por mim.</span>
+        <span>Marker for places that haven't been visited by me yet.</span>
       </Content>
     </Container>
   )
