@@ -42,6 +42,11 @@ const MapConsumer = () => {
     document.documentElement.clientWidth ||
     document.body.clientWidth
 
+  if (width < 425) {
+    map.setZoom(1)
+    map.setMinZoom(1)
+  }
+
   if (width < 768) {
     map.setZoom(2)
     map.setMinZoom(2)
