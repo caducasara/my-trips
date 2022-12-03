@@ -15,7 +15,7 @@ export const Subtitle = () => {
           src="/img/red_marker.png"
           alt="Ponteiro para demarcar localização no mapa de cor vermalha"
         />
-        <span>Marker for places that haven't been visited by me yet.</span>
+        <span>Marker for places that haven&apos;t been visited by me yet.</span>
       </Content>
     </Container>
   )
