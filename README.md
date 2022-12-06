@@ -7,7 +7,7 @@ Welcome to My Trips, this is a project I developed for the purpose of studying w
 
 For development, in addition to the stacks that were mentioned before, some libraries were also used to assist in development, such as [Leaflet](https://leafletjs.com/), [React Leaflet](https://react-leaflet.js.org/), [MapBox](https://www.mapbox.com/) and [GraphCMS](https://hygraph.com/).
 
-With the development of this application I managed to put into practice the development of a PWA, a better SEO configuration with Next, and also train concepts of page architecture and properties with SSR. [text](filename.md#anchortext)
+With the development of this application I managed to put into practice the development of a PWA, a better SEO configuration with Next, and also train concepts of page architecture and properties with SSR.
 
 # Application pages exemple
 <br>
