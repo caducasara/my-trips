@@ -18,7 +18,7 @@ On the home page there is a map where there are blue and red markers, demarcatin
 We can also find in the upper right corner a button that takes us to the about page.
 <br>
 <br>
-![Home Page](./src/assets/home-page.png)
+![Home Page](./src/assets/home-page.PNG)
 <br>
 <br>
 
@@ -27,7 +27,7 @@ We can also find in the upper right corner a button that takes us to the about p
 When we click on any of the markers found on the Home, we are redirected to the Places page, on this page the name of the place will be presented, a small paragraph talking about it, and a compilation of photos of the place.
 <br>
 <br>
-![Place Page](./src/assets/place-page.png)
+![Place Page](./src/assets/place-page.PNG)
 <br>
 <br>
 
@@ -36,7 +36,7 @@ When we click on any of the markers found on the Home, we are redirected to the 
 This page is just a page explaining a little about what the application is.
 <br>
 <br>
-![About Page](./src/assets/about-page.png)
+![About Page](./src/assets/about-page.PNG)
 <br>
 <br>
 
