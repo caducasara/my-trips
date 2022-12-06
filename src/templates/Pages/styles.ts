@@ -9,6 +9,7 @@ export const Content = styled.section`
   height: 100vh;
   max-width: var(--container);
   margin: auto;
+  padding: 0 2rem;
 `
 
 export const Heading = styled.h1`
