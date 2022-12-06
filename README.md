@@ -53,4 +53,20 @@ If you use yarn
 $ yarn
 
 ```
+
+After installing the project's dependencies, just run the following commands to start the application locally:
+
+```bash
+
+If you use npm
+$ npm run dev
+
+If you use yarn
+$ yarn dev
+
+```
+
 OBS: To access your application, access http://localhost:3000/ in your preferred browser.
+
+# Access this App:
+You can also access this application through the link: https://my-trips-rouge.vercel.app/
