@@ -40,33 +40,23 @@ This page is just a page explaining a little about what the application is.
 <br>
 <br>
 
-# How to start the project:
+# About some tools that were used to build the application:
+For the correct functioning of the application, some third-party tools were used, such as:
 
-After cloning this project on your machine, you will need to install the project's dependencies. You can do this by going to the project root and running the commands in your terminal:
+## [GraphCMS](https://hygraph.com/)
+GraphCMS was used as the "database" of the application, it is through it that we can dynamically search the pages of the application, the map markers and also the information about each place marked on the map. The requests made to GrapgCMS are graphQL requests, thus helping to avoid over-fetching information on new pages.
+<br>
+<br>
 
-```bash
+## [Leaflet](https://leafletjs.com/)/[React Leaflet](https://react-leaflet.js.org/),
+The Leaflet/React Leaftlet was used to have a better integration with the map in the application. With it it was possible to add the map and control its settings in a much more practical and simple way.
+<br>
+<br>
 
-If you use npm
-$ npm install
+## [MapBox](https://www.mapbox.com/)
 
-If you use yarn
-$ yarn
-
-```
-
-After installing the project's dependencies, just run the following commands to start the application locally:
-
-```bash
-
-If you use npm
-$ npm run dev
-
-If you use yarn
-$ yarn dev
-
-```
-
-OBS: To access your application, access http://localhost:3000/ in your preferred browser.
-
+MapBox was used to make the customized construction of the map, through it it was possible to make a very complete customization of the entire map, in a simple and easy way and it also provides us with a way to share the map in a safe way.
+<br>
+<br>
 # Access this App:
 You can also access this application through the link: https://my-trips-rouge.vercel.app/
